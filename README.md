@@ -5,13 +5,13 @@
 並新建一個圖片將背景像素用黑色表示，鴨子部分則用白色表示。
 ---
 ## 運算公式
+```
 P( h | d) = P ( d | h ) * P( h) / P(d)
-
-這裡：
 P ( h | d )：是因子h基於數據d的假設概率,叫做後驗概率
 P ( d | h ) : 是假設h為真條件下的數據d的概率
 P( h)　: 是假設條件h為真的時候的概率（和數據無關），它叫做h的先驗概率
 P(d)　: 數據d的概率，和先驗條件無關．
+```
 ---
 ##算法實現分解：
 * Step 1 : **數據處理**  
@@ -32,11 +32,14 @@ P(d)　: 數據d的概率，和先驗條件無關．
 *	Pandas
 ```
 pip install opencv-python
-
+```
+```
 pip install numpy
-
+```
+```
 pip install pillow
-
+```
+```
 pip install pandas
 ```
 ---
@@ -59,17 +62,17 @@ Dataset 總共大小為 745272 筆訓練資料
 ## 成果展示
 
 結果一:
-![image_1](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/duck_1.jpeg)
+![image_1](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/duck_1.jpeg=6000x)
 結果二:
-![image_2](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/duck_2.jpeg)
+![image_2](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/duck_2.jpeg=6000x)
 結果三:
-![image_3](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/duck_3.jpeg)
+![image_3](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/duck_3.jpeg=6000x)
 結果四:
-![image_4](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/duck_4.jpeg)
+![image_4](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/duck_4.jpeg=6000x)
 結果五:
-![image_5](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/full_duck_1.jpeg)
+![image_5](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/full_duck_1.jpeg=6000x)
 結果六:
-![image_6](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/full_duck_2.jpeg)
+![image_6](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/full_duck_2.jpeg=6000x)
 備註:
 結果五六合併為完整full_duck圖片，因素過大，且無法使用GPU運算，所以將圖片切為兩份避免爆RAM及當機
 ---
