@@ -56,24 +56,30 @@ Dataset 總共大小為 745272 筆訓練資料
 數據比例不成正比是因為背景樣式較多且多元，相較於鴨子的像素單一所以才在數據比例上相當大的差距。
 
 背景範例:
-![image_7](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/image/backgroud.jpeg)
-![image_8](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/image/backgroung1.jpeg)
+![image_7](https://github.com/Aaron-Ace/DuckRecognition/blob/041f8763aff1ec247da84d07870cea3dd8f7e380/image/background.jpg)
+![image_8](https://github.com/Aaron-Ace/DuckRecognition/blob/041f8763aff1ec247da84d07870cea3dd8f7e380/image/background1.jpg)
 ---
 ## 成果展示
 
 結果一:
-![image_1](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/duck_1.jpeg=6000x)
+![image_1](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/duck_1.jpeg)
+
 結果二:
-![image_2](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/duck_2.jpeg=6000x)
+![image_2](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/duck_2.jpeg)
+
 結果三:
-![image_3](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/duck_3.jpeg=6000x)
+![image_3](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/duck_3.jpeg)
+
 結果四:
-![image_4](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/duck_4.jpeg=6000x)
+![image_4](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/duck_4.jpeg)
+
 結果五:
-![image_5](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/full_duck_1.jpeg=6000x)
+![image_5](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/full_duck_1.jpeg)
+
 結果六:
-![image_6](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/full_duck_2.jpeg=6000x)
-備註:
-結果五六合併為完整full_duck圖片，因素過大，且無法使用GPU運算，所以將圖片切為兩份避免爆RAM及當機
+![image_6](https://github.com/Aaron-Ace/DuckRecognition/blob/aecd29b5be79de4b4f376ae012f07a482b948979/result/full_duck_2.jpeg)
+
+##備註:
+結果五及六合併為完整full_duck圖片，因素過大，且無法使用GPU運算，所以將圖片切為兩份避免爆RAM及當機
 ---
 #Powered By NDHU CHANG HAO CHAN
